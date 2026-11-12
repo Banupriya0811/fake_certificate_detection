@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DocVerify AI — Document Authenticity Verification</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <a href="#/scan" class="nav-brand">
+      <span class="nav-logo">DV</span>
+      <span class="nav-title">DocVerify <span>AI</span></span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" hidden>
+      <a href="#/scan" data-route="scan">Scan Upload</a>
+      <a href="#/camera" data-route="camera">Camera</a>
+      <a href="#/history" data-route="history">History</a>
+      <a href="#/profile" data-route="profile">Profile</a>
+    </nav>
+
+    <div class="nav-actions">
+      <span class="status-pill" id="api-status" title="Backend API status">
+        <span class="status-dot"></span>
+        <span id="api-status-text">Checking API...</span>
+      </span>
+      <button class="btn btn-outline btn-sm" id="logout-btn" hidden>Sign Out</button>
+    </div>
+  </header>
+
+  <main id="app-root" class="main-container"></main>
+
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/scan.js"></script>
+  <script src="js/camera.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/profile.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

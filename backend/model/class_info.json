@@ -1,0 +1,9 @@
+{
+  "class_indices": {
+    "fake": 0,
+    "real": 1
+  },
+  "threshold": 0.5,
+  "fake_class_is_0": true,
+  "threshold_note": "output < 0.5 -> FAKE | output >= 0.5 -> REAL"
+}

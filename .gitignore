@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Backup & unrelated local files
+_legacy_backup/
+resume/
+resume.js
+js.js
+image.py
+
+# Large model and dataset artifacts
+*.keras
+*.h5
+*.csv
+ml/artifacts/gan_samples/
+
+# Uploaded & avatar files
+backend/storage/uploads/
+backend/storage/avatars/
+
+# Database
+*.db
+
+# Generated split dataset
+ml/data/processed/
