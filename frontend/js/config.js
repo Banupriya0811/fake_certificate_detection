@@ -1,8 +1,7 @@
 /**
  * Frontend configuration.
- * Change API_BASE_URL if the backend runs on another host or port.
+ * Production backend hosted on Render.
  */
 window.APP_CONFIG = {
-  API_BASE_URL: "http://127.0.0.1:5000",
+  API_BASE_URL: "https://fake-certificate-detection-o119.onrender.com",
 };
-
